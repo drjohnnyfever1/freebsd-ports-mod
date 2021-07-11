@@ -74,9 +74,9 @@ LINUX_DEFAULT?=		c7
 # Please give notice to the Graphics Team (x11@FreeBSD.org) in advance before
 # bumping the LLVM version.
 .if ${ARCH} == powerpc
-LLVM_DEFAULT?=		10
+LLVM_DEFAULT?=		11
 .else
-LLVM_DEFAULT?=		90
+LLVM_DEFAULT?=		11
 .endif
 # Possible values: 5.1, 5.2, 5.3, 5.4
 LUA_DEFAULT?=		5.2
